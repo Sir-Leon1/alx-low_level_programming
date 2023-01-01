@@ -1,16 +1,14 @@
 #include "main.h"
 #include <unistd.h>
 
-/*
- * We call function write 
- * which is in the output library unistd.h
- * the first 1 is the file descriptor refering
- * to the standard output
- * The &c refers to the address of the c variable 
- * The last one specifies the no of bytes to write
+/**
+ * _putchar - Writes the character c to stdout
+ * @c: The character to print
  *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
 {
-	return(write(1, &c, 1));
+	return (write(1, &c, 1));
 }

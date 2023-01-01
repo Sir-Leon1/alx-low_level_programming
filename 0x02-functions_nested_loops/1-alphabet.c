@@ -1,11 +1,7 @@
-/**
- * File : 1-alphabet.c
- * Author : Leon Gunnah
- */
 #include "main.h"
+
 /**
- * print_alphabet - prints the alphabet in lower case , followed by a newline
- * The alphabet prototype is used as the function
+ * print_alphabet - prints the alphabet in lowercase, followed bya new line
  */
 void print_alphabet(void)
 {
