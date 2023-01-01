@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-/*
+/**
  * File : Main.h
  * Auth : Leon Gunnah
  * Description : Header file containing declarations for all functions.
