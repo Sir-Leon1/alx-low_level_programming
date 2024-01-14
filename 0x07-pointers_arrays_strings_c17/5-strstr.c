@@ -1,20 +1,12 @@
-/*
- * File: 5-strstr.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
- * _strstr - Locates a substring.
- * @haystack: The string to be searched.
- * @needle: The substring to be located.
+ * _strstr - Finds the first occurance of needle in haystack
+ * @needle: The string we are searhing for
+ * @haystack: Where to search
  *
- * Return: If the substring is located - a pointer to the beginning
- *                                       of the located substring.
- *         If the substring is not located - NULL.
+ * Return: Pointer to located substring else NULL
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	int index;
@@ -33,7 +25,6 @@ char *_strstr(char *haystack, char *needle)
 					return (haystack);
 
 				index++;
-
 			} while (haystack[index] == needle[index]);
 		}
 

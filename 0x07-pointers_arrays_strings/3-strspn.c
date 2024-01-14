@@ -1,11 +1,17 @@
+/*
+ * File: 3-strspn.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 
 /**
- * _strspn - Gets the length of a prefix substring
- * @s: The string to be measured
- * @accept: The prefix to be measured
+ * _strspn - Gets the length of a prefix substring.
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
  *
- * Return: NUmber of bytes in s wic consist only of bytes from accept
+ * Return: The number of bytes in s which
+ *         consist only of bytes from accept.
  */
 unsigned int _strspn(char *s, char *accept)
 {
