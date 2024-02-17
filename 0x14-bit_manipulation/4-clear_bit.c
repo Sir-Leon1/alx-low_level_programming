@@ -8,7 +8,7 @@
  * Return: If an error occurs - -1.
  * else 1
  */
-int clear_bit(unsigned int *n, unsigned int index)
+int clear_bit(long unsigned int *n, unsigned int index)
 {
 	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
